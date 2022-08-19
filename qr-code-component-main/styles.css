@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Edu+TAS+Beginner&family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&family=Poppins:wght@300&family=Raleway&family=Sacramento&display=swap');
+body{
+    background-color:hsl(212, 45%, 89%);
+    height:100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height:100vh;
+}
+.QR-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+.QR{
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+}
+h1{
+    font-size: 21px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+h3{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
